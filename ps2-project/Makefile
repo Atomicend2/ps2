@@ -14,8 +14,8 @@ EE_OBJS = src/main.o \
           src/level_builder.o
 
 # Compiler & Linker Directories
-EE_INCS += -Iinclude -I$(TYRA_SRC)/include
-EE_LDFLAGS += -L$(TYRA_SRC)/lib -ltyra -lpadx -lmc -lhdd -lfileXio
+EE_INCS += -Iinclude -I$(TYRA_DIR)/include
+EE_LDFLAGS += -L$(TYRA_DIR)/lib -ltyra -lpadx -lmc -lhdd -lfileXio
 
 # Standard PS2SDK Global Build Rules
 include $(PS2SDK)/samples/Makefile.pref
