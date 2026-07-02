@@ -24,7 +24,7 @@ jobs:
     - name: Compile Code via Make
       run: |
         cd ps2-project
-        make
+        make TYRA=../tyra TYRA_DIR=../tyra TYRA_SRC=../tyra TYRA_HOME=../tyra ENGINEDIR=../tyra
 
     - name: Upload Finished Game File
       uses: actions/upload-artifact@v4
