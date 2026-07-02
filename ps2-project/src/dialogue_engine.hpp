@@ -6,7 +6,7 @@
 #ifndef SEVENTH_VOW_DIALOGUE_ENGINE_HPP
 #define SEVENTH_VOW_DIALOGUE_ENGINE_HPP
 
-#include <tyra>
+#include <tyra.h>
 #include "chapter_manager.hpp"
 
 namespace TheSeventhVow {

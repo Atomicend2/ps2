@@ -6,7 +6,7 @@
 #ifndef SEVENTH_VOW_VOW_SYSTEM_HPP
 #define SEVENTH_VOW_VOW_SYSTEM_HPP
 
-#include <tyra>
+#include <tyra.h>
 
 namespace TheSeventhVow {
 

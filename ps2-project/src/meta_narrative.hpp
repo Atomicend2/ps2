@@ -6,7 +6,7 @@
 #ifndef SEVENTH_VOW_META_NARRATIVE_HPP
 #define SEVENTH_VOW_META_NARRATIVE_HPP
 
-#include <tyra>
+#include <tyra.h>
 #include <string>
 #include <vector>
 

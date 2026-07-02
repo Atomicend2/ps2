@@ -6,7 +6,7 @@
  * © 2026 The Seventh Vow Development Team. All rights reserved.
  */
 
-#include <tyra>
+#include <tyra.h>
 #include "game.hpp"
 
 int main(int argc, char* argv[]) {

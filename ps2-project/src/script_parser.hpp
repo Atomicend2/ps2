@@ -6,7 +6,7 @@
 #ifndef SEVENTH_VOW_SCRIPT_PARSER_HPP
 #define SEVENTH_VOW_SCRIPT_PARSER_HPP
 
-#include <tyra>
+#include <tyra.h>
 #include <vector>
 #include <string>
 

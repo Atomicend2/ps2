@@ -6,7 +6,7 @@
 #ifndef SEVENTH_VOW_EXTENDED_COMBAT_HPP
 #define SEVENTH_VOW_EXTENDED_COMBAT_HPP
 
-#include <tyra>
+#include <tyra.h>
 #include <string>
 #include <vector>
 #include "vow_system.hpp"

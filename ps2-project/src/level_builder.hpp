@@ -6,7 +6,7 @@
 #ifndef SEVENTH_VOW_LEVEL_BUILDER_HPP
 #define SEVENTH_VOW_LEVEL_BUILDER_HPP
 
-#include <tyra>
+#include <tyra.h>
 #include <string>
 #include <vector>
 #include "asset_adapter.hpp"

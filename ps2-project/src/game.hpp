@@ -7,7 +7,7 @@
 #ifndef SEVENTH_VOW_GAME_HPP
 #define SEVENTH_VOW_GAME_HPP
 
-#include <tyra>
+#include <tyra.h>
 #include "vow_system.hpp"
 #include "camera.hpp"
 #include "chapter_manager.hpp"
