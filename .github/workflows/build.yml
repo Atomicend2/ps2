@@ -11,6 +11,16 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v4
 
+    - name: Install Build Essentials (Make)
+      run: |
+        if command -v apt-get >/dev/null 2>&1; then
+          apt-get update && apt-get install -y make
+        elif command -v apk >/dev/null 2>&1; then
+          apk update && apk add make
+        else
+          echo "Package manager not found, attempting to continue..."
+        fi
+
     - name: Compile Code via Make
       run: |
         cd ps2-project
