@@ -15,9 +15,9 @@ jobs:
       run: |
         cd ps2-project
         make
-        
+
     - name: Upload Finished Game File
-      uses: actions/artifacts@v4
+      uses: actions/upload-artifact@v4
       with:
         name: TheSeventhVow-PS2-Build
         path: ps2-project/BISCUS_970.00.ELF
