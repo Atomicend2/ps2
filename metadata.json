@@ -1,0 +1,6 @@
+{
+  "name": "The Seventh Vow PS2 Project Tool",
+  "description": "A developer workstation and boilerplate manager for 'The Seventh Vow', a PlayStation 2 C++ RPG using the Tyra Engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
